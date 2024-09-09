@@ -2,7 +2,7 @@
 
 ### Simple Modbus TCP server/client example:
 
-modbus is a defined protocal which is widely used in communication between PC and PLC (programmable logic controller)
+modbus is a defined protocol which is widely used in communication between PC and PLC (programmable logic controller)
 
 modbus TCP is one kind of modbus that use TCP network to translate, benefit from operating system's well establish network system, modbus TCP is more simple relative to other kind of modbus ( ex: RTU )
 
