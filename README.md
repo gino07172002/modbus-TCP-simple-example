@@ -1,6 +1,6 @@
 
 
-#Simple Modbus TCP server/client example:
+### Simple Modbus TCP server/client example:
 
 modbus is a defined protocal which is widely used in communication between PC and PLC (programmable logic controller)
 
@@ -13,7 +13,7 @@ This is the simplest modbus TCP connection example , for those who may face to h
 
 
 
-#TCP modbus query example :
+### TCP modbus query example :
 
 modbus mainly use uint16_16 as a unit, so the queries would looks in pair:
 
@@ -74,7 +74,7 @@ when server receive the request, it would response following query :
 some (many!) modbus users used to treat modbus's queries' minimal unit as uint16, so when they define the "Big endian" and "Little endian" they may have different byte swap method inside each uint16 data compare to other system. keep an eyes on it or you may confused on what data you got when you translate the data from more than 1 registers.
 
 
-###how to make
+### how to make
 
 go to the folder client or server, with MAKEFILE side the folder
 
@@ -85,13 +85,17 @@ use command
 ```
 
 
-#p.s.
+### p.s.
 
 The main structure of the TCP select connection code is writed by ChatGPT them I modified it to modbus protocal format
 
 the makefile is modified from the auto-generated makefile form qmake, the format is beautiful and I don't see any disadvantage inside. I keep the qmake pro file here if someone interested.
 
 you can use libmodbus or modbus poll to verify the modbus's behavior
+
+
+
+cheer! 
 
 
 
