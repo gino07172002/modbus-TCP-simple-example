@@ -1,6 +1,6 @@
 
 
-###Simple Modbus TCP server/client example:
+#Simple Modbus TCP server/client example:
 
 modbus is a defined protocal which is widely used in communication between PC and PLC (programmable logic controller)
 
@@ -13,7 +13,7 @@ This is the simplest modbus TCP connection example , for those who may face to h
 
 
 
-###TCP modbus query example :
+#TCP modbus query example :
 
 modbus mainly use uint16_16 as a unit, so the queries would looks in pair:
 
@@ -85,7 +85,7 @@ use command
 ```
 
 
-###p.s.
+#p.s.
 
 The main structure of the TCP select connection code is writed by ChatGPT them I modified it to modbus protocal format
 
